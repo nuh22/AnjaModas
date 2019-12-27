@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Anja - Modas e Acessórios | Blusas, Calças, Vestidos, Sapatos.</title>
+    <meta name="description" content="A loja é uma realização de um sonho, sempre quis montar uma loja somente para mulheres pois sou apaixonada por roupas e acessórios. A Anja Modas foi fundada em 12/10/2019 e o nome é em homenagem a minha irmã falecida que tinha o apelido de Anja e após seu falecimento, uma borboleta amarela sempre aparece pra mim.">
+    <meta name="keywords" content="Anja, Moda, Acessórios, Blusas, Calças, Vestidos, Sapatos">
+    <meta name="author" content="Núbia, Guilherme, Erika">
+    <link rel="icon" href="src/img/icones/Blusas.png">
+    <!-- Importando Scripts do JS -->
+    <script src="src/js/includeHTML.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Importando Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,100i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <!-- Importando CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+</head>
+
+<body>
+    <div class="container bg5-light font-weight-bold ">
+
+        <!-- Incluindo Cabecalho -->
+        <div w3-include-html="layout/cabecalho.html"></div>
+
+
+
+        <!-- ÁREA SLIDE SHOW -->
+        <div>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#primeiro-banner-rosa" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner-amarelo" data-slide-to="1"></li>
+                    <li data-target="#banner-rosa" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/img/banners/banner1.jpg" title="Banner de cor rosa" alt="Banner rosa"
+                            class="rounded img-fluid" data-toggle="modal" data-target="#rosa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/banners/banner2.jpg" title="Banner de cor amarela" alt="Banner de cor amarela"
+                            class="rounded img-fluid" data-toggle="modal" data-target="#amarelo">,
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/banners/banner3.jpg" alt="Banner de cor rosa" title="Banner de cor azul"
+                            alt="Banner azul" class="rounded img-fluid" toggle="modal" data-target="#rosa">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </div>
+
+
+        <!--    SEÇÃO DE PRODUTOS         -->
+
+        <section class="row pt-5">
+
+            <!--    PRIMEIRO PRODUTO DA TELA INICIAL-->
+
+            <div class="col-md-12">
+                <h4 class="font-weight-bold" style="color:#FF3666">Recém chegados!</h4>
+            </div>
+
+            <div class="col-md-4 img-fluid">
+                <img class="card-img-top rounded" src="../src/img/produtos/sapatos/sapatos2.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Moleca Florida</h4>
+                    <p class="card-text text-center ">R$39,90</p>
+                  
+                </div>
+            </div>
+
+            <!--    SEGUNDO PRODUTO DA TELA INICIAL-->
+            <div class="col-md-4 img-fluid">
+                <img class="card-img-top rounded" src="../src/img/produtos/calca/5.png" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Short Jeans</h4>
+                    <p class="card-text text-center">R$35,00</p>
+                 
+                </div>
+            </div>
+
+            <!--    TERCEIRO
+      PRODUTO DA TELA INICIAL-->
+            <div class="col-md-4 img-fluid">
+                <img class="card-img-top rounded" src="../src/img/produtos/camiseta/camiseta4.png" alt="Card image">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Regata Azul</h4>
+                    <p class="card-text text-center">R$10,00</p>
+                
+                </div>
+            </div>
+
+        </section>
+
+        <!--   HISTORIA DA ANJA E DA ANJA MODAS   -->
+
+        <article class="row">
+            <div class="col-md-4">
+
+                <div id="apresentacao" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#primeiro-banner-roxo" data-slide-to="0" class="active"></li>
+                        <li data-target="#banner-amarelo" data-slide-to="1"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="src/img/Apresentacao/foto-da-loja.png" title="Banner de cor roxa"
+                                alt="Banner roxa" class="rounded-circle img-fluid" data-toggle="modal"
+                                data-target="#roxo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="src/img/Apresentacao/foto-da-pessoa.png" title="Banner de cor amarela"
+                                alt="Banner de cor amarela" class="rounded-circle img-fluid" data-toggle="modal"
+                                data-target="#amarelo">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#apresentacao" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#apresentacao" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-8 mt-3">
+                <h4>Sobre a Priscila:</h4>
+                <p>Meu nome é Priscila Lima, tenho 36 anos, nascida em São Paulo, apaixonada por música e moda</p>
+                <h4>Sobre a Anja Modas:</h4>
+                <p>A loja é uma realização de um sonho, sempre quis montar uma loja somente para mulheres pois sou
+                    apaixonada por roupas e acessórios. A Anja Modas foi fundada em 12/10/2019 e o nome é em homenagem a
+                    minha irmã falecida que tinha o apelido de Anja e após seu falecimento, uma borboleta amarela sempre
+                    aparece pra mim</p>
+
+            </div>
+
+
+        </article>
+    </div>
+
+    <!-- Incluindo Rodape -->
+    <div w3-include-html="layout/rodape.html"></div>
+
+    <script>
+        includeHTML();
+    </script>
+</body>
+
+</html>

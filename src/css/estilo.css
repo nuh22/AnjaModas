@@ -1,0 +1,139 @@
+/*css stylesheet*/
+
+header{
+       top:0;
+       background-color: white;}
+
+header div {
+    font-family:'Be Vietnam', sans-serif;
+    font-size:80%;
+}
+
+
+#logo{
+    width: 70%}
+
+
+nav {
+    font-family:'Be Vietnam', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+}
+
+/*O QUE VOCÊ PRECISA?*/
+nav p {font-family:'Be Vietnam', sans-serif;
+     font-size: 18px;
+}
+
+nav li{margin: 0 0.%;   
+}
+
+
+nav li:hover{
+    background-color: lightpink;
+}
+
+nav li img{
+    width: 80%;
+}
+
+div p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:#9c9c9c
+    
+    
+}
+
+/*Seção de produtos*/
+ section h4 {
+    font-family:'Be Vietnam', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    }
+
+section p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    color: #9c9c9c;
+}
+
+.btn-block{
+        background-color: #FF3666;
+}
+
+.btn-block:hover{
+    background-color: mediumseagreen;
+}
+
+/* FIM Seção de produtos*/
+
+
+/*APRESENTAÇÃO DA LOJA*/
+article div {
+    font-family:'Open Sans', sans-serif;
+}
+
+
+
+/*Olá, tudo bem?*/
+article h4{
+    margin-top: 10%;
+    font-family:'Be Vietnam', sans-serif;
+    font-weight: 900;
+}
+
+/*Meu nome é Priscila Lima*/
+article p{
+    font-family:'Be Vietnam', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 100%;
+}
+
+footer{
+    margin-top: 50px;
+    font-family:'Be Vietnam', sans-serif;
+    background-color: #FF3666;
+    color: white;
+    font-size:130%; 
+    font-weight:600;
+    padding-left:10%;
+    padding-right:20%;
+    padding-top: 4%;
+    padding-bottom:4%;
+    
+}
+
+/*Nos acompanhe nas redes sociais:*/
+footer h1{
+    text-align: Righ;
+    font-size:70%; 
+    font-weight: 600;
+}
+
+/*Venha conhecer a loja e se apaixone*/
+footer p{
+    color: white;
+    font-size:90%; 
+    font-weight: 800;
+}
+
+footer p{
+    font-size:90%; 
+    font-weight: 400;
+}
+
+.card-img-top {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
